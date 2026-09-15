@@ -32,6 +32,10 @@ main {
     grid-column: span 4;
 }
 
+aside {
+    grid-column: span 1;
+}
+
 section {
     display: grid;
     grid-template: auto / 1fr 1fr 1fr ;
@@ -44,5 +48,42 @@ section {
 }
 
 .bg-red {
-    background-color: #d40920;
+    background: #d40920;
+    color:#ffffff
+
+}
+
+.bg-blue {
+    background: #1356a2;
+    color: #ffffff
+}
+
+.bg-yellow {
+    background: #f7d842
+    color: #111111;}
+
+.bg-white {
+    background: #ffffff;
+    color: #111111;
+}
+
+footer {
+    grid-column: span 5;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+p {
+    margin-bottom: 8px;
 }
